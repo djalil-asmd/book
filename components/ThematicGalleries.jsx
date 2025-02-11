@@ -2,8 +2,6 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
@@ -14,7 +12,6 @@ const ThematicGalleries = () => {
   const [selectedTheme, setSelectedTheme] = useState(null);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
-  // Données des galeries
   const themes = [
     {
       id: 'portrait',
